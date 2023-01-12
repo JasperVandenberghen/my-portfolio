@@ -1,5 +1,3 @@
-$primary-color: #006aff;
-
 @import 'animate.css';
 
 @font-face {
@@ -16,7 +14,3 @@ $primary-color: #006aff;
     font-family: 'Coolvetica';
     src: url('./assets/fonts/CoolveticeRg-Regular.woff2') format('woff2');
 }
-
-input, textarea {
-    font-family: 'Helvetica Neue';
-} 
