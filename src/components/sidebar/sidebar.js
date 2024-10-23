@@ -5,13 +5,13 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import leuven from '../../assets/images/leuven.png';
+import headshot from '../../assets/images/headshot.png';
 
 const Sidebar = () => {
     return (
         <div className='nav-bar'>
             <Link className='logo' to='/'>
-                <img src={leuven} alt='logo' />
+                <img src={headshot} alt='logo' className='logo-image' />
             </Link>
             <nav>
                 <NavLink className={({ isActive }) =>
