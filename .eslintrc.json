@@ -5,6 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
         "standard"
     ],
     "overrides": [
@@ -22,5 +23,8 @@
         "indent": ["error", 4],
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
         "no-multi-spaces": ["error", { "ignoreEOLComments": true }]
-    }
+    },
+    "globals": {
+        "JSX": "readonly"
+     }
 }
